@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("https://burst.shopifycdn.com/photos/hiker-looks-up-at-vertical-mountain-peaks.jpg?width=373&format=pjpg&exif=1&iptc=1%201x,%20https://burst.shopifycdn.com/photos/hiker-looks-up-at-vertical-mountain-peaks.jpg?width=746&format=pjpg&exif=1&iptc=1%202x");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Lugrasimo', "cursive";
+    font-weight: bolder;   
+    color: aliceblue; 
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

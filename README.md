@@ -1,7 +1,7 @@
 # mixedMessages
 
 ## HTML
-Basic HTML page, unconnected, to view quotes generated.
+Basic HTML page, to view quotes generated.
 
 ## CSS
 Basic css design of to outline executed javascript generated quotes

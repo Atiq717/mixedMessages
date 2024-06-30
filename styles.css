@@ -1,35 +1,37 @@
-html{
+html {
     background-color: brown;
-    font-family: 'Lugrasimo', "cursive";
+    font-family: 'Lugrasimo', cursive;
     padding: 20px;
-
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    /* Uncomment the lines below if you want to use a background image */
     /* background-image: url("https://burst.shopifycdn.com/photos/hiker-looks-up-at-vertical-mountain-peaks.jpg?width=373&format=pjpg&exif=1&iptc=1%201x,%20https://burst.shopifycdn.com/photos/hiker-looks-up-at-vertical-mountain-peaks.jpg?width=746&format=pjpg&exif=1&iptc=1%202x");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 3em;
-    font-family: 'Lugrasimo', "cursive";
     font-weight: bolder;   
     color: aliceblue; 
 }
 
-main{
+main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; 
+    justify-content: center;
     align-items: center;
 }
 
-div{
+#quote-box {
     background-color: orange;
-    color: aliceblue;
+    color: black; 
     margin: 10% auto;
     height: 330px;
     width: 50%;
@@ -37,12 +39,19 @@ div{
     text-align: center;
     line-height: 80px;
     font-size: 1.5em;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-button{
-    opacity: 0.1;
-    position: absolute;
+button {
+    opacity: 1; 
     padding: 13px;
     margin: 10px;
+    cursor: pointer; 
+}
+
+#words {
+    display: none; 
 }
